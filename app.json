@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "covapp19",
+    "slug": "covapp19",
+    "description": "Covapp19 adalah aplikasi untuk memonitor statistik wabah corona di manca negara",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/covapp19.png",
+    "splash": {
+      "image": "./assets/covapp19.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#004aad"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.adibdev.covapp19",
+      "versionCode": 1
+    }
+  }
+}
